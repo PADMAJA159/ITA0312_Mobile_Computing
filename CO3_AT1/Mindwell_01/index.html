@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MindWell — Mental Wellness</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-mark">✦</span>MindWell — Mental Wellness</a>
+  <nav><a href="#features">Home</a><a href="#features">Health Routine</a><a href="#features">Self-Care</a><a href="#features">Meditation</a></nav>
+  <button class="btn btn-outline" id="loginOpen">Log in</button>
+</header>
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <span class="eyebrow">YOUR EVERYDAY COMPANION</span>
+    <h1>Make space for a calmer you</h1>
+    <p>Gentle routines, guided breathing, and helpful reads to support your everyday wellbeing.</p>
+    <div class="actions"><button class="btn" id="getStarted">Get started</button><button class="btn btn-light" id="learnMore">Explore features</button></div>
+    <div class="trust"><span>✓ Easy to use</span><span>✓ Made for daily life</span></div>
+  </div>
+  <div class="hero-art">
+    <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+    <div class="art-card">
+      <div class="art-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="art-label">TODAY</span></div>
+      <div class="art-symbol">✦</div>
+      <h3>Your calm moment</h3><p>Take a breath. You can start small.</p>
+      <div class="progress"><span></span></div><small>Daily wellbeing progress</small>
+    </div>
+    <div class="floating float-a">☁  5 min mindful break</div><div class="floating float-b">♡  Be kind to yourself</div>
+  </div>
+</section>
+<section class="section" id="features">
+  <div class="section-heading"><div><span class="eyebrow">MADE FOR YOU</span><h2>Everything you need, in one place</h2></div><p>Small moments of calm, every day.</p></div>
+  <div class="feature-grid"><article class="feature"><div class="feature-icon">✦</div><h3>Health Routine Blogs</h3><p>Simple daily habits for better sleep, movement, hydration, and mindful breaks.</p><button class="text-action" data-action="Explore routines opened in demo">Explore routines ↗</button></article><article class="feature"><div class="feature-icon">↗</div><h3>Self-Care Blogs</h3><p>Practical ideas for boundaries, journaling, rest, and taking care of yourself.</p><button class="text-action" data-action="Read self-care tips opened in demo">Read self-care tips ↗</button></article><article class="feature"><div class="feature-icon">◎</div><h3>Guided Meditation</h3><p>Pause for a moment with a short breathing exercise.</p><button class="text-action" data-action="Start breathing opened in demo">Start breathing ↗</button></article></div>
+</section>
+<section class="lower-grid">
+  <div class="panel signup-panel"><span class="eyebrow">GET STARTED</span><h2>Create your account</h2><p>Register in a few steps and personalize your experience.</p>
+    <form id="registerForm"><label>Full name<input name="name" placeholder="Your name" required></label><label>Email address<input name="email" type="email" placeholder="you@example.com" required></label><label>Password<input name="password" type="password" placeholder="At least 6 characters" minlength="6" required></label><button class="btn full" type="submit">Register</button></form>
+    <p class="form-note" id="registerMessage" aria-live="polite"></p>
+  </div>
+  <div class="panel content-panel"><span class="eyebrow">QUICK ACCESS</span><h2>Pick up where you left off</h2><div class="quick-list"><div class="quick-item"><span class="quick-icon">✦</span><div><strong>Health Routine Blogs</strong><small>Explore routines in a simple demo flow</small></div></div><div class="quick-item"><span class="quick-icon">↗</span><div><strong>Self-Care Blogs</strong><small>Read self-care tips in a simple demo flow</small></div></div><div class="quick-item"><span class="quick-icon">◎</span><div><strong>Guided Meditation</strong><small>Start breathing in a simple demo flow</small></div></div></div><div class="note-box"><strong>Demo prototype</strong><p>This is a front-end UI sample. Forms and buttons show demo feedback; connect a backend to add real accounts, bookings, uploads, or payments.</p></div></div>
+</section>
+</main>
+<footer><span>MindWell — Mental Wellness</span><span>Designed for a smoother everyday experience</span></footer>
+<div class="modal-backdrop" id="loginModal" aria-hidden="true"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="close" id="loginClose" aria-label="Close">×</button><span class="eyebrow">WELCOME BACK</span><h2 id="modalTitle">Log in to your account</h2><form id="loginForm"><label>Email address<input type="email" placeholder="you@example.com" required></label><label>Password<input type="password" placeholder="Your password" required></label><button class="btn full" type="submit">Log in</button></form><p id="loginMessage" class="form-note" aria-live="polite"></p><p class="form-note">New here? Use the registration form to try the demo.</p></div></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body></html>
