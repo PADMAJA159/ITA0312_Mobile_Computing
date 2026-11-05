@@ -1,0 +1,2 @@
+event_total_erlangs,event_area_km2,temporary_cells_at_radius,event_erlangs_per_cell,channels_needed_per_cell_for_2pct,available_channels_per_cell,estimated_blocking,capacity_shortfall_channels,decision
+1250.0,1.0,7,178.57142857142858,193,84,0.5343894494865161,109,MODIFY: temporary stadium micro-cells / cells-on-wheels

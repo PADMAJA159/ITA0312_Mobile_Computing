@@ -1,0 +1,5 @@
+subscribers,total_offered_erlangs,sites_at_fixed_radius,erlangs_per_site,channels_required_per_site_for_2pct,fixed_reuse_channels_per_site_N4
+1000,25.0,19,1.3157894736842106,5,84
+10000,250.0,19,13.157894736842104,20,84
+20000,500.0,19,26.31578947368421,35,84
+100000,2500.0,19,131.57894736842104,145,84

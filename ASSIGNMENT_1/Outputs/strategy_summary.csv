@@ -1,0 +1,49 @@
+strategy,N,path_loss_n,cell_radius_km,sites,channels_per_cell_or_group,effective_interferers,theory_sir_db,offered_erlangs_modelled,blocking_probability,design_principle,governing_parameter,illustrative_total_cost
+Fixed cluster reuse,3,2.5,0.5,19,112,6,4.146518864155125,131.57894736842104,0.17878970103458197,Spatial reuse,Cluster size N / reuse ratio Q,215000.0
+3-sector reuse,3,2.5,0.5,19,112,2,8.917731411351749,131.57894736842104,0.17878970103458197,Spatial filtering,N and sector count,215000.0
+Dynamic assignment / borrowing,3,2.5,0.5,19,336,6,4.146518864155125,394.7368421052631,0.16102183020950528,Trunking efficiency,Shared pool and reuse guard,215000.0
+Macro-micro / cell splitting,3,2.5,0.5,19,448,2,8.917731411351749,131.57894736842104,2.0800212787304758e-103,Hierarchical spatial reuse,Cell radius and split rounds k,215000.0
+Fixed cluster reuse,3,3.0,0.5,19,112,6,6.532125137753438,131.57894736842104,0.17878970103458197,Spatial reuse,Cluster size N / reuse ratio Q,215000.0
+3-sector reuse,3,3.0,0.5,19,112,2,11.303337684950062,131.57894736842104,0.17878970103458197,Spatial filtering,N and sector count,215000.0
+Dynamic assignment / borrowing,3,3.0,0.5,19,336,6,6.532125137753438,394.7368421052631,0.16102183020950528,Trunking efficiency,Shared pool and reuse guard,215000.0
+Macro-micro / cell splitting,3,3.0,0.5,19,448,2,11.303337684950062,131.57894736842104,2.0800212787304758e-103,Hierarchical spatial reuse,Cell radius and split rounds k,215000.0
+Fixed cluster reuse,3,4.0,0.5,19,112,6,11.303337684950062,131.57894736842104,0.17878970103458197,Spatial reuse,Cluster size N / reuse ratio Q,215000.0
+3-sector reuse,3,4.0,0.5,19,112,2,16.074550232146684,131.57894736842104,0.17878970103458197,Spatial filtering,N and sector count,215000.0
+Dynamic assignment / borrowing,3,4.0,0.5,19,336,6,11.303337684950062,394.7368421052631,0.16102183020950528,Trunking efficiency,Shared pool and reuse guard,215000.0
+Macro-micro / cell splitting,3,4.0,0.5,19,448,2,16.074550232146684,131.57894736842104,2.0800212787304758e-103,Hierarchical spatial reuse,Cell radius and split rounds k,215000.0
+Fixed cluster reuse,4,2.5,0.5,19,84,6,5.7082530717588735,131.57894736842104,0.3737470560940966,Spatial reuse,Cluster size N / reuse ratio Q,215000.0
+3-sector reuse,4,2.5,0.5,19,84,2,10.479465618955498,131.57894736842104,0.3737470560940966,Spatial filtering,N and sector count,215000.0
+Dynamic assignment / borrowing,4,2.5,0.5,19,336,6,5.7082530717588735,526.3157894736842,0.3648624980632756,Trunking efficiency,Shared pool and reuse guard,215000.0
+Macro-micro / cell splitting,4,2.5,0.5,19,336,2,10.479465618955498,131.57894736842104,2.0568548668572973e-50,Hierarchical spatial reuse,Cell radius and split rounds k,215000.0
+Fixed cluster reuse,4,3.0,0.5,19,84,6,8.406206186877936,131.57894736842104,0.3737470560940966,Spatial reuse,Cluster size N / reuse ratio Q,215000.0
+3-sector reuse,4,3.0,0.5,19,84,2,13.17741873407456,131.57894736842104,0.3737470560940966,Spatial filtering,N and sector count,215000.0
+Dynamic assignment / borrowing,4,3.0,0.5,19,336,6,8.406206186877936,526.3157894736842,0.3648624980632756,Trunking efficiency,Shared pool and reuse guard,215000.0
+Macro-micro / cell splitting,4,3.0,0.5,19,336,2,13.17741873407456,131.57894736842104,2.0568548668572973e-50,Hierarchical spatial reuse,Cell radius and split rounds k,215000.0
+Fixed cluster reuse,4,4.0,0.5,19,84,6,13.80211241711606,131.57894736842104,0.3737470560940966,Spatial reuse,Cluster size N / reuse ratio Q,215000.0
+3-sector reuse,4,4.0,0.5,19,84,2,18.573324964312683,131.57894736842104,0.3737470560940966,Spatial filtering,N and sector count,215000.0
+Dynamic assignment / borrowing,4,4.0,0.5,19,336,6,13.80211241711606,526.3157894736842,0.3648624980632756,Trunking efficiency,Shared pool and reuse guard,215000.0
+Macro-micro / cell splitting,4,4.0,0.5,19,336,2,18.573324964312683,131.57894736842104,2.0568548668572973e-50,Hierarchical spatial reuse,Cell radius and split rounds k,215000.0
+Fixed cluster reuse,7,2.5,0.5,19,48,6,8.746228680337554,131.57894736842104,0.6394108133873281,Spatial reuse,Cluster size N / reuse ratio Q,215000.0
+3-sector reuse,7,2.5,0.5,19,48,2,13.51744122753418,131.57894736842104,0.6394108133873281,Spatial filtering,N and sector count,215000.0
+Dynamic assignment / borrowing,7,2.5,0.5,19,336,6,8.746228680337554,921.0526315789473,0.6358202111308868,Trunking efficiency,Shared pool and reuse guard,215000.0
+Macro-micro / cell splitting,7,2.5,0.5,19,192,2,13.51744122753418,131.57894736842104,1.5472312017761517e-07,Hierarchical spatial reuse,Cell radius and split rounds k,215000.0
+Fixed cluster reuse,7,3.0,0.5,19,48,6,12.051776917172353,131.57894736842104,0.6394108133873281,Spatial reuse,Cluster size N / reuse ratio Q,215000.0
+3-sector reuse,7,3.0,0.5,19,48,2,16.822989464368977,131.57894736842104,0.6394108133873281,Spatial filtering,N and sector count,215000.0
+Dynamic assignment / borrowing,7,3.0,0.5,19,336,6,12.051776917172353,921.0526315789473,0.6358202111308868,Trunking efficiency,Shared pool and reuse guard,215000.0
+Macro-micro / cell splitting,7,3.0,0.5,19,192,2,16.822989464368977,131.57894736842104,1.5472312017761517e-07,Hierarchical spatial reuse,Cell radius and split rounds k,215000.0
+Fixed cluster reuse,7,4.0,0.5,19,48,6,18.66287339084195,131.57894736842104,0.6394108133873281,Spatial reuse,Cluster size N / reuse ratio Q,215000.0
+3-sector reuse,7,4.0,0.5,19,48,2,23.434085938038574,131.57894736842104,0.6394108133873281,Spatial filtering,N and sector count,215000.0
+Dynamic assignment / borrowing,7,4.0,0.5,19,336,6,18.66287339084195,921.0526315789473,0.6358202111308868,Trunking efficiency,Shared pool and reuse guard,215000.0
+Macro-micro / cell splitting,7,4.0,0.5,19,192,2,23.434085938038574,131.57894736842104,1.5472312017761517e-07,Hierarchical spatial reuse,Cell radius and split rounds k,215000.0
+Fixed cluster reuse,12,2.5,0.5,19,28,6,11.672268755754654,131.57894736842104,0.789206077978758,Spatial reuse,Cluster size N / reuse ratio Q,215000.0
+3-sector reuse,12,2.5,0.5,19,28,2,16.44348130295128,131.57894736842104,0.789206077978758,Spatial filtering,N and sector count,215000.0
+Dynamic assignment / borrowing,12,2.5,0.5,19,336,6,11.672268755754654,1578.9473684210525,0.7873708572271447,Trunking efficiency,Shared pool and reuse guard,215000.0
+Macro-micro / cell splitting,12,2.5,0.5,19,112,2,16.44348130295128,131.57894736842104,0.17878970103458197,Hierarchical spatial reuse,Cell radius and split rounds k,215000.0
+Fixed cluster reuse,12,3.0,0.5,19,28,6,15.563025007672874,131.57894736842104,0.789206077978758,Spatial reuse,Cluster size N / reuse ratio Q,215000.0
+3-sector reuse,12,3.0,0.5,19,28,2,20.3342375548695,131.57894736842104,0.789206077978758,Spatial filtering,N and sector count,215000.0
+Dynamic assignment / borrowing,12,3.0,0.5,19,336,6,15.563025007672874,1578.9473684210525,0.7873708572271447,Trunking efficiency,Shared pool and reuse guard,215000.0
+Macro-micro / cell splitting,12,3.0,0.5,19,112,2,20.3342375548695,131.57894736842104,0.17878970103458197,Hierarchical spatial reuse,Cell radius and split rounds k,215000.0
+Fixed cluster reuse,12,4.0,0.5,19,28,6,23.34453751150931,131.57894736842104,0.789206077978758,Spatial reuse,Cluster size N / reuse ratio Q,215000.0
+3-sector reuse,12,4.0,0.5,19,28,2,28.115750058705935,131.57894736842104,0.789206077978758,Spatial filtering,N and sector count,215000.0
+Dynamic assignment / borrowing,12,4.0,0.5,19,336,6,23.34453751150931,1578.9473684210525,0.7873708572271447,Trunking efficiency,Shared pool and reuse guard,215000.0
+Macro-micro / cell splitting,12,4.0,0.5,19,112,2,28.115750058705935,131.57894736842104,0.17878970103458197,Hierarchical spatial reuse,Cell radius and split rounds k,215000.0
